@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>André Duque Grijo | Engenharia de Software</title>
+  <link rel="stylesheet" href="estilo.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">&lt;ADG /&gt;</div>
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre Mim</a></li>
+      <li><a href="#formacao">Formação</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <span class="hero-tag">Engenheiro de Software</span>
+      <h1>André Duque<br/><span class="accent">Grijo</span></h1>
+      <p class="hero-sub">Desenvolvendo soluções digitais com foco em qualidade, lógica e boas práticas de programação.</p>
+      <a href="#contato" class="btn-primary">Entre em Contato</a>
+    </div>
+    <div class="hero-code">
+      <pre><code><span class="kw">const</span> dev = {
+  nome: <span class="str">"André Grijo"</span>,
+  cidade: <span class="str">"Senador Guiomard/AC"</span>,
+  foco: <span class="str">"Engenharia de Software"</span>,
+  status: <span class="str">"Disponível"</span>
+};</code></pre>
+    </div>
+  </section>
+
+  <!-- SOBRE MIM -->
+  <section id="sobre">
+    <div class="container">
+      <span class="section-tag">// sobre mim</span>
+      <h2>Quem sou eu</h2>
+      <div class="sobre-grid">
+        <div class="sobre-texto">
+          <p>Meu nome é André Duque Grijo, sou estudante de Bacharelado em Engenharia de Software pela UNINTER, morando em Senador Guiomard, no estado do Acre.</p>
+          <p>Tenho interesse em desenvolvimento de sistemas, lógica de programação e tecnologias web e móveis. Busco sempre aprender novas ferramentas e aplicar boas práticas no desenvolvimento de software.</p>
+          <p>Acredito que a tecnologia é uma ferramenta poderosa para resolver problemas reais, e é por isso que me dedico a entender não só o código, mas também o impacto que ele pode ter na vida das pessoas.</p>
+        </div>
+        <div class="sobre-cards">
+          <div class="info-card">
+            <span class="card-icon">📍</span>
+            <span class="card-label">Localização</span>
+            <span class="card-value">Senador Guiomard, AC</span>
+          </div>
+          <div class="info-card">
+            <span class="card-icon">🎓</span>
+            <span class="card-label">Curso</span>
+            <span class="card-value">Engenharia de Software</span>
+          </div>
+          <div class="info-card">
+            <span class="card-icon">🏫</span>
+            <span class="card-label">Instituição</span>
+            <span class="card-value">UNINTER</span>
+          </div>
+          <div class="info-card">
+            <span class="card-icon">💻</span>
+            <span class="card-label">Foco atual</span>
+            <span class="card-value">Aplicações Web e Móveis</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMAÇÃO -->
+  <section id="formacao">
+    <div class="container">
+      <span class="section-tag">// formação</span>
+      <h2>Minha Formação</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <span class="tl-year">2022 – Cursando</span>
+            <h3>Bacharelado em Engenharia de Software</h3>
+            <p>Centro Universitário Internacional UNINTER – Modalidade a Distância</p>
+            <p class="tl-desc">Formação voltada ao desenvolvimento de sistemas, arquitetura de software, banco de dados, aplicações web e móveis e gestão de projetos de tecnologia.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <span class="tl-year">Concluído</span>
+            <h3>Ensino Médio</h3>
+            <p>Senador Guiomard, Acre</p>
+            <p class="tl-desc">Base para o ingresso no ensino superior e início do interesse pela área de tecnologia e programação.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <span class="tl-year">Em andamento</span>
+            <h3>Disciplinas em destaque</h3>
+            <p>UNINTER – Engenharia de Software</p>
+            <p class="tl-desc">Aplicações Web e Móveis · Estrutura de Dados · Programação Orientada a Objetos · Banco de Dados · Engenharia de Requisitos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFÓLIO -->
+  <section id="portfolio">
+    <div class="container">
+      <span class="section-tag">// portfólio</span>
+      <h2>Projetos</h2>
+      <div class="proj-grid">
+        <div class="proj-card">
+          <div class="proj-header">
+            <span class="proj-lang">HTML · CSS · JS</span>
+          </div>
+          <h3>Site Pessoal</h3>
+          <p>Portfólio pessoal desenvolvido com HTML, CSS e JavaScript puro, com layout responsivo e seções de apresentação, formação e contato.</p>
+          <div class="proj-tags">
+            <span>Frontend</span>
+            <span>Responsivo</span>
+          </div>
+        </div>
+        <div class="proj-card">
+          <div class="proj-header">
+            <span class="proj-lang">JavaScript</span>
+          </div>
+          <h3>Calculadora Web</h3>
+          <p>Aplicação de calculadora simples desenvolvida com JavaScript, aplicando manipulação do DOM e lógica de operações matemáticas básicas.</p>
+          <div class="proj-tags">
+            <span>DOM</span>
+            <span>Lógica</span>
+          </div>
+        </div>
+        <div class="proj-card">
+          <div class="proj-header">
+            <span class="proj-lang">HTML · CSS</span>
+          </div>
+          <h3>Landing Page</h3>
+          <p>Página de apresentação responsiva com uso de flexbox, animações CSS e boas práticas de acessibilidade e semântica HTML.</p>
+          <div class="proj-tags">
+            <span>CSS</span>
+            <span>Flexbox</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <div class="container">
+      <span class="section-tag">// contato</span>
+      <h2>Fale Comigo</h2>
+      <div class="contato-grid">
+        <div class="contato-info">
+          <p>Quer entrar em contato? Preencha o formulário ao lado ou use os dados abaixo.</p>
+          <div class="contato-item">
+            <span>📍</span> Senador Guiomard, Acre – Brasil
+          </div>
+          <div class="contato-item">
+            <span>🎓</span> UNINTER – Engenharia de Software
+          </div>
+          <div class="contato-item">
+            <span>💼</span> RU: 1301092
+          </div>
+        </div>
+        <form class="contato-form" onsubmit="enviarForm(event)">
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Seu nome" required />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="seu@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" rows="4" placeholder="Sua mensagem..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Enviar Mensagem</button>
+          <p id="form-msg" class="form-feedback"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&lt;ADG /&gt; · André Duque Grijo · Engenharia de Software · UNINTER · 2024</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
