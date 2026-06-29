@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>André Duque Grijo</title>
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="#sobre">Sobre Mim</a>
+    <a href="#formacao">Formação</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <!-- SOBRE MIM -->
+  <section id="sobre">
+    <h1>André Duque Grijo</h1>
+    <p>Olá! Meu nome é André Duque Grijo, tenho 22 anos e moro em Senador Guiomard, no Acre. Sou estudante de Engenharia de Software pela UNINTER na modalidade a distância.</p>
+    <p>Tenho interesse em desenvolvimento de sistemas e tecnologias web e móveis. Gosto de aprender coisas novas na área de programação e estou sempre buscando melhorar meus conhecimentos.</p>
+    <p>No meu tempo livre gosto de jogar games e assistir séries de tecnologia. Escolhi Engenharia de Software porque quero trabalhar com desenvolvimento de aplicativos e sistemas no futuro.</p>
+  </section>
+
+  <!-- FORMAÇÃO -->
+  <section id="formacao">
+    <h2>Formação</h2>
+    <div class="card">
+      <h3>Bacharelado em Engenharia de Software</h3>
+      <p><strong>Instituição:</strong> Centro Universitário Internacional UNINTER</p>
+      <p><strong>Modalidade:</strong> Educação a Distância</p>
+      <p><strong>Período:</strong> 2022 – cursando</p>
+      <p>Curso voltado ao desenvolvimento de sistemas, banco de dados, programação web e móvel e gestão de projetos de tecnologia.</p>
+    </div>
+    <div class="card">
+      <h3>Ensino Médio</h3>
+      <p><strong>Local:</strong> Senador Guiomard, Acre</p>
+      <p><strong>Período:</strong> Concluído</p>
+    </div>
+  </section>
+
+  <!-- PORTFÓLIO -->
+  <section id="portfolio">
+    <h2>Portfólio</h2>
+    <div class="card">
+      <h3>Site Pessoal</h3>
+      <p>Primeiro site desenvolvido durante a disciplina de Aplicações Web e Móveis. Feito com HTML, CSS e JavaScript.</p>
+    </div>
+    <div class="card">
+      <h3>Calculadora</h3>
+      <p>Calculadora simples feita com JavaScript para praticar manipulação do DOM e lógica de programação.</p>
+    </div>
+    <div class="card">
+      <h3>Página de Cadastro</h3>
+      <p>Formulário de cadastro com validação básica em JavaScript, desenvolvido como exercício prático.</p>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato pelo formulário abaixo:</p>
+    <form onsubmit="enviar(event)">
+      <label for="nome">Nome:</label><br/>
+      <input type="text" id="nome" placeholder="Seu nome" required /><br/><br/>
+
+      <label for="email">E-mail:</label><br/>
+      <input type="email" id="email" placeholder="seu@email.com" required /><br/><br/>
+
+      <label for="mensagem">Mensagem:</label><br/>
+      <textarea id="mensagem" rows="5" placeholder="Escreva sua mensagem..."></textarea><br/><br/>
+
+      <button type="submit">Enviar</button>
+      <p id="aviso"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>André Duque Grijo &copy; 2024 | Engenharia de Software - UNINTER</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
